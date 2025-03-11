@@ -1,0 +1,56 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20;
+    padding: 40;
+    background-color: #f5e4ef;
+    color: #722d2d;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgb(240, 164, 206);
+    box-shadow: 0 0 40px rgba(209, 16, 16, 0.1);
+    border-radius: 5px;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #c20a51;
+}
+
+/* Botón básico */
+button {
+    background-color: #ff006a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #ff006a;
+}
+
+/* Enlaces */
+a {
+    color: #ff006a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para formularios */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
